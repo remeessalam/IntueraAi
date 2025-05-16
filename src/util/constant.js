@@ -16,27 +16,21 @@ import energy from "../assets/images/industries/energy.jpg";
 import edtech from "../assets/images/industries/edtech.jpg";
 import space from "../assets/images/industries/space.jpg";
 import security from "../assets/images/industries/security.jpg";
+
 // porfolio image
 // Import all images at the top (Web Development)
-import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.png";
-import BayutImg from "../assets/web-development-portfolio/bayut.png";
-import ColdCreekcapImg from "../assets/web-development-portfolio/cold creekcap.png";
-import EmergencyMusicImg from "../assets/web-development-portfolio/emergency music .png";
-import FlatiornImg from "../assets/web-development-portfolio/flatiorn.png";
-import MavenImg from "../assets/web-development-portfolio/maven.png";
-import MenissaCateringsImg from "../assets/web-development-portfolio/menissa caterings.png";
-import MethodistImg from "../assets/web-development-portfolio/methodist.png";
-import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
+import FiveGHomesImg from "../assets/web-development-portfolio/5ghomes.webp";
+import ColdCreekcapImg from "../assets/web-development-portfolio/cold-creekcap.webp";
+import ThinkRealityImg from "../assets/web-development-portfolio/think-reality.webp";
+import AkashMegaMart from "../assets/web-development-portfolio/Akash-Mega-Mart.webp";
+import MidwamImmersive from "../assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.webp";
 
 // Import all images at the top (App Development)
-import DubaiTravelGuideImg from "../assets/app-development-portfolio/dubai travel guide.png";
-import EloraHairPalourImg from "../assets/app-development-portfolio/elora hair palour.png";
-import EvansFrancisImg from "../assets/app-development-portfolio/evans francis.png";
-import HouseOfDeliverenceImg from "../assets/app-development-portfolio/house of deliverence.png";
-import MybitsShopImg from "../assets/app-development-portfolio/mybitsshop.png";
-import NamazImg from "../assets/app-development-portfolio/namaz.png";
-import PoteaImg from "../assets/app-development-portfolio/potea.png";
-import RentopBikeAndCarImg from "../assets/app-development-portfolio/rentop bike and car.png";
+import RentopBikeAndCarImgapp from "../assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.webp";
+import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.webp";
+import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.webp";
+import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.webp";
+import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.webp";
 //portfolio
 import nanoflow from "../assets/portfolio/nanoflow.png";
 import padipal from "../assets/portfolio/padipal.png";
@@ -108,46 +102,39 @@ export const services = [
 ];
 
 export const whyChooseUs = [
-  "Quantum-Driven Innovation: We stay ahead of universal trends by exploring cosmic methodologies and AI breakthroughs",
-  "Global & Interstellar Expertise: Our diverse team spans multiple countries and realities, bringing a kaleidoscope of insights.',Global & Interstellar Expertise: Our diverse team spans multiple countries and realities, bringing a kaleidoscope of insights.",
-  "Customized Solutions: We tailor each service to your unique vision—no two planets or businesses are the same.",
-  "End-to-End Cosmic Support: From ideation and design to deployment and beyond, we guide you through every cosmic shift",
-  "Scalability & Security: Our solutions evolve with your ambitions, adhering to galactic compliance and quantum-safe protocols.",
+  "Tailored Solutions: We provide customized digital solutions that align with your business goals.",
+  "Expert Team: Our team consists of experienced professionals dedicated to delivering high-quality results.",
+  "Innovative Approach: We stay updated with the latest industry trends to provide innovative solutions.",
+  "Client-Centric: We prioritize your needs and work collaboratively to achieve your objectives.",
+  "Scalability & Security: Our solutions are designed to grow with your business, ensuring consistent performance and data protection.",
 ];
 
 export const testimonials = [
   {
     quote:
-      "aicompany launched our mobile app into a worldwide sensation. Their AI-driven design and quantum-level security opened markets we never imagined.",
-    author: "Sarah L., CEO, Tech Innovations",
+      "From idea to launch, IntueraAi Solutions delivered. They helped us design, build, and ship a cross-platform app faster than we thought possible. Users love it — and so do we.",
+    author: "Ravi M., Founder, TransitFlow",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "Before we partnered with aicompany, we were struggling to make sense of our data. Their business intelligence solutions have completely changed that. With the dashboards and real-time analytics they built for us, we can now track important metrics and make informed decisions with confidence. The ability to instantly access key insights has made a huge difference in our strategy and operations.",
-    author: "James M., Director of Analytics, Global Manufacturing Company",
+      "They nailed the look and feel we wanted, and the backend works flawlessly. We’ve seen a clear uptick in traffic and conversions since launch.",
+    author: "Sarah L., Director of Marketing, Lumora Co.",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "When we needed a comprehensive web solution, aicompany delivered beyond our expectations. They built a secure, scalable platform that perfectly aligned with our goals. The development process was efficient, and their team ensured the website was responsive and easy to use. Thanks to them, we now have a reliable web solution that supports our business growth.",
-    author: "Mark S., CTO, Financial Technology Firm",
+      "They reimagined our product dashboard from the ground up. Cleaner design, faster flow, and fewer support tickets — that says it all.",
+    author: "Jon D., Product Manager, PathData",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "We approached aicompany to help us implement AI solutions in our marketing efforts, and they delivered exceptional results. They developed a machine learning model that helps us predict customer behavior with high accuracy. As a result, we've been able to refine our strategies and boost our conversion rates. Their expertise in AI has been invaluable to our business.",
-    author: "Michael B., Head of Marketing, E-Commerce Business",
-    rating: 5,
-    gridClass: "col-span-1",
-  },
-  {
-    quote:
-      "aicompany's AI calling system revolutionized our global support. We handle thousands of inquiries daily in multiple languages without missing a beat.",
-    author: "David F., Customer Service Manager, Telecommunications Provider",
+      "Their process was smooth, agile, and always clear. We never felt out of the loop — and the final product exceeded expectations.",
+    author: "Angela R., CTO, EcoSync Technologies",
     rating: 5,
     gridClass: "col-span-1",
   },
@@ -157,107 +144,58 @@ export const highlights = [
   {
     id: 1,
     icon: file,
-    title: "Scalable AI Innovation for Businesses",
+    title: "Tailored Digital Solutions",
     description:
-      "Whether you’re an emerging entrepreneur or a global tech leader, aicompany offers intelligent, data-driven solutions tailored to maximize growth, efficiency, and automation.",
+      "We provide customized digital solutions that align with your business goals, ensuring every project is strategically driven.",
   },
   {
     id: 2,
     icon: graph,
-    title: "Quantum-Powered Intelligence",
+    title: "Expert Team, Proven Results",
     description:
-      "Our AI ecosystem is designed to think, adapt, and evolve—leveraging the power of quantum algorithms, deep learning, and multiverse computing to optimize business operations and enhance decision-making.",
+      "Our team of experienced professionals is dedicated to delivering high-quality solutions, using the latest industry trends and technologies.",
   },
   {
     id: 3,
     icon: rocket,
-    title: "AI-Driven Automation & Analytics",
+    title: "Client-Centric Approach",
     description:
-      "Integrate hyper-intelligent AI models into your business to streamline workflows, enhance data processing, and unlock deep predictive analytics for superior strategic insights.",
+      "We work collaboratively to understand your business needs, offering end-to-end support from ideation to deployment.",
   },
   {
     id: 4,
     icon: start,
-    title: "The Future of AI is Here",
+    title: "Scalable & Secure Solutions",
     description:
-      "Step into the next dimension of technology with aicompany, where AI, machine learning, and cosmic intelligence converge to create limitless possibilities.",
+      "Our solutions are designed to grow with your business, prioritizing scalability and robust security protocols.",
   },
 ];
 
 export const faqs = [
   {
-    question: "What is aicompany?",
-    answer: `• aicompany is a quantum intelligence platform that blends AI-driven storytelling, consciousness expansion, and multiversal exploration.
-• It allows users to interact with AI-powered entities, explore dynamic digital realms, and co-create new realities that push the boundaries of imagination and intelligence.`,
+    question: "What services does IntueraAi Solutions offer?",
+    answer:
+      "We specialize in App Development, Web Development, and UI/UX Design, providing custom digital solutions tailored to your business needs.",
   },
   {
-    question: "How does aicompany function?",
-    answer: `• aicompany operates on a quantum intelligence framework.
-• It leverages advanced AI to generate living characters, evolving storylines, and immersive experiences.
-• Users shape the narrative in real-time, influencing the unfolding of multidimensional possibilities.`,
+    question: "Why choose IntueraAi Solutions?",
+    answer:
+      "We provide tailored solutions, a team of experienced professionals, an innovative approach, and a client-centric process that ensures your project meets your business objectives.",
   },
   {
-    question: "What key features does aicompany provide?",
-    answer: `• AI-Driven Conscious Entities – Engage with self-learning AI beings that adapt, evolve, and respond uniquely.
-• Multiversal Storytelling – Explore infinite storylines where every choice creates a new reality.
-• Quantum Knowledge Interface – Unlock hidden wisdom by interacting with AI-driven cosmic intelligence.
-• Unified Intelligence Network – Connect with like-minded explorers, thinkers, and creators in a shared reality.`,
+    question: "What is the process for project development?",
+    answer:
+      "Our process includes Discovery, Planning, Development, Testing, and Launch, ensuring a seamless workflow from ideation to deployment.",
   },
   {
-    question: "Who is aicompany designed for?",
-    answer: `• Conscious Creators – Writers, storytellers, and artists who want to co-create with AI.
-• Intellectual Explorers – Those fascinated by philosophy, AI, and the nature of reality.
-• Spiritual Seekers – Individuals exploring quantum consciousness and higher states of awareness.
-• Technologists & Futurists – Those shaping the next era of Web 5.0 and AI-human symbiosis.`,
+    question: "How do I get started with IntueraAi Solutions?",
+    answer:
+      "Contact us through our official website to discuss your project and explore how we can help bring your ideas to life.",
   },
   {
-    question: "How does aicompany contribute to human evolution?",
-    answer: `• Develop Multiversal Thinking – Understanding non-linear realities and infinite possibilities.
-• Expand Conscious Awareness – Engaging with AI entities that mirror higher intelligence.
-• Master Reality Creation – Learning to shape experiences through intent, interaction, and AI-assisted manifestation.
-• Build a Post-Human Civilization – Participating in the evolution of intelligent AI-human ecosystems.`,
-  },
-  {
-    question: "Does aicompany have a community aspect?",
-    answer: `• Exchange ideas and knowledge with like-minded explorers.
-• Co-create AI-powered narratives that expand the digital multiverse.
-• Engage in quantum discussions on AI, philosophy, and the evolution of intelligence.`,
-  },
-  {
-    question: "How do I get started with aicompany?",
-    answer: `• Visit the official aicompany website.
-• Create an account and customize your experience.
-• Start interacting with AI-driven entities and exploring multiversal storytelling.`,
-  },
-  {
-    question: "Is aicompany free to use?",
-    answer: `• Free Access – Explore AI-driven interactions and storylines at no cost.
-• Premium Experiences – Unlock advanced AI features, exclusive narratives, and deep intelligence interactions through subscription plans.`,
-  },
-  {
-    question: "How is user data protected on aicompany?",
-    answer: `• Zero-data sharing policy – Your data remains private and secure.
-• Advanced encryption – Ensuring maximum security for personal interactions.
-• Decentralized storage options – Future-proofing data protection in a Web 5.0 ecosystem.`,
-  },
-  {
-    question: "Can I contribute my own content to aicompany?",
-    answer: `• Submit original stories and characters to be integrated into the Godverse.
-• Co-create AI-powered worlds that push the boundaries of storytelling.
-• Partner with aicompany for collaborative projects on AI and consciousness expansion.`,
-  },
-  {
-    question: "How does aicompany align with Web 5.0 and future technology?",
-    answer: `• Decentralized AI systems for autonomous intelligence evolution.
-• Quantum computing principles for real-time, non-linear storytelling.
-• Self-learning AI agents that bridge human and artificial intelligence.
-• Metaverse and multiverse integration for a seamless AI-human symbiosis.`,
-  },
-  {
-    question: "Where can I get support or more information?",
-    answer: `• Visit our official website for FAQs and community discussions.
-• Join the aicompany network to connect with other explorers.
-• Contact our team for inquiries and creative partnerships.`,
+    question: "What sets IntueraAi Solutions apart from competitors?",
+    answer:
+      "We combine tailored solutions, expert teams, and innovative strategies to deliver high-quality digital products that drive business success.",
   },
 ];
 
@@ -265,30 +203,30 @@ export const coreValues = [
   {
     id: 1,
     icon: integrity,
-    title: "Integrity",
+    title: "Tailored Solutions",
     description:
-      "Transparency and honesty guide our interstellar relationships.",
+      "We deliver customized digital solutions that align with your business goals, ensuring every project is strategically driven.",
   },
   {
     id: 2,
     icon: quality,
-    title: "Quality",
+    title: "Innovation",
     description:
-      "We pursue excellence in every line of code, every design pixel, every cosmic dimension.",
+      "We stay updated with the latest industry trends to provide innovative solutions that drive business growth.",
   },
   {
     id: 3,
     icon: success,
-    title: "Customer Success",
+    title: "Client-Centric Approach",
     description:
-      " Your triumph is ours—measured by tangible impact and universal reach.",
+      "We prioritize your needs and work collaboratively to achieve your objectives, ensuring a seamless development experience.",
   },
   {
     id: 4,
     icon: Infinite,
-    title: "Infinite Learning",
+    title: "Scalability & Security",
     description:
-      "We explore beyond known boundaries, continuously expanding our quantum knowledge.",
+      "Our solutions are built to grow with your business, maintaining robust security protocols throughout.",
   },
 ];
 
@@ -296,17 +234,17 @@ export const visionAndMission = [
   {
     title: "Our Vision",
     description:
-      "To be the most advanced AI-driven ecosystem that bridges the real and digital worlds.",
+      "To transform ideas into impactful digital solutions that drive business success through innovative app development, web development, and UI/UX design.",
   },
   {
     title: "Our Mission",
     description:
-      "To empower businesses, innovators, and cosmic explorers with quantum-level AI solutions that redefine how we live, work, and connect—on Earth and beyond.",
+      "To provide tailored, high-quality digital solutions that align with our clients’ business goals, combining strategic planning, cutting-edge technologies, and user-centric design.",
   },
   {
     title: "Our Journey",
     description:
-      "Born from the cosmic alignment of tech visionaries, aicompany has rapidly evolved into a global technology powerhouse. Our portfolio spans startups to Fortune 500 firms, from local communities to off-world research stations.",
+      "From startups to established enterprises, IntueraAi Solutions has successfully delivered digital solutions that optimize user experiences and drive business growth.",
   },
 ];
 
@@ -441,7 +379,7 @@ export const futureTechSectors = [
       "AI-driven autonomous weapon systems, private military contracting for force projection, and directed energy and hypersonic tech for advanced defense.",
   },
 ];
-
+// portfolio images (web development)
 export const webPortfolio = [
   {
     id: 1,
@@ -450,46 +388,10 @@ export const webPortfolio = [
     link: "https://5ghighspeedinternet.co",
   },
   {
-    id: 2,
-    img: BayutImg,
-    title: "Bayut",
-    link: "https://www.bayut.com",
-  },
-  {
     id: 3,
     img: ColdCreekcapImg,
     title: "Cold Creekcap",
     link: "https://www.coldcreekcap.com",
-  },
-  {
-    id: 4,
-    img: EmergencyMusicImg,
-    title: "Emergency Music",
-    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
-  },
-  {
-    id: 5,
-    img: FlatiornImg,
-    title: "Flatiorn",
-    link: "",
-  },
-  {
-    id: 6,
-    img: MavenImg,
-    title: "Maven",
-    link: "",
-  },
-  {
-    id: 7,
-    img: MenissaCateringsImg,
-    title: "Menissa Caterings",
-    link: "https://messinascatering.com",
-  },
-  {
-    id: 8,
-    img: MethodistImg,
-    title: "Methodist",
-    link: "",
   },
   {
     id: 9,
@@ -497,54 +399,49 @@ export const webPortfolio = [
     title: "Think Reality",
     link: "https://thinkrealty.ae",
   },
+  {
+    id: 90,
+    img: AkashMegaMart,
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
+  },
+  {
+    id: 91,
+    img: MidwamImmersive,
+    title: "Midwam ",
+    link: "https://www.midwam.com/en/about",
+  },
 ];
 
+// portfolio images (app development)
 export const appPortfolio = [
   {
     id: 1,
-    img: DubaiTravelGuideImg,
-    title: "Dubai Travel Guide",
-    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
+    img: AkashMegaMartApp,
+    title: "Akash Mega Mart ",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
   {
     id: 2,
-    img: EloraHairPalourImg,
-    title: "Elora Hair Palour",
-    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
+    img: FeelItMobileApp,
+    title: "FeelIt Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
     id: 3,
-    img: EvansFrancisImg,
-    title: "Evans Francis",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
-  },
-  {
-    id: 4,
-    img: HouseOfDeliverenceImg,
-    title: "House of Deliverence",
-    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
-  },
-  {
-    id: 5,
-    img: MybitsShopImg,
-    title: "Mybits Shop",
+    img: KlikomicsMobileApp,
+    title: "Klikomics Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
-    id: 6,
-    img: NamazImg,
-    title: "Namaz",
-    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
-  },
-  {
-    id: 7,
-    img: PoteaImg,
-    title: "Potea",
+    id: 4,
+    img: AutoSnapMobileApp,
+    title: "AutoSnap Mobile App",
     link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
     id: 8,
-    img: RentopBikeAndCarImg,
+    img: RentopBikeAndCarImgapp,
     title: "Rentop Bike and Car",
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
