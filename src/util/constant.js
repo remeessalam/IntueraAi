@@ -54,7 +54,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export const companyDetails = {
   name: "IntueraAi Solutions",
   email: "aicompany@gmail.com",
-  phone: "+91-0000000000",
+  phone: "+91-9265392817",
   address: "company address",
   socialLinks: [
     {
@@ -71,7 +71,8 @@ export const companyDetails = {
       icon: FaYoutube,
     },
   ],
-  whatsapp: "",
+  whatsapp:
+    "https://api.whatsapp.com/send/?phone=9265392817&text&type=phone_number&app_absent=0",
 };
 
 export const services = [
