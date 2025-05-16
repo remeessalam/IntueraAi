@@ -25,7 +25,7 @@ const HowWeWork = () => {
         <div className="wrapper relative z-10">
           <div className="text-center mb-12">
             <h1 className="main-title" data-aos="fade-up">
-              Invest in your Goals with aicompany
+              Invest in your Goals with IntueraAi Solutions
             </h1>
             <p className="desc" data-aos="fade-up">
               Organize your team's media lists in one tool and see how each
@@ -50,14 +50,14 @@ const HowWeWork = () => {
                 How We Work
               </h2>
               <p className="desc" data-aos="fade-right">
-                At aicompany, we collaborate closely with clients to understand
-                their unique goals and challenges, developing tailored
-                strategies that leverage quantum-level AI solutions. Our agile
-                design and development process ensures adaptive, user-centric
-                experiences, followed by rigorous testing to guarantee
-                performance and security. Post-deployment, we provide continuous
-                support, ensuring our solutions evolve in tandem with your
-                business growth.
+                At IntueraAi Solutions, we collaborate closely with clients to
+                understand their unique goals and challenges, developing
+                tailored strategies that leverage quantum-level AI solutions.
+                Our agile design and development process ensures adaptive,
+                user-centric experiences, followed by rigorous testing to
+                guarantee performance and security. Post-deployment, we provide
+                continuous support, ensuring our solutions evolve in tandem with
+                your business growth.
               </p>
               <button
                 onClick={() => navigateTo("/contact-us")}
@@ -77,9 +77,9 @@ const HowWeWork = () => {
               Looking Toward the Future
             </h2>
             <p className="desc" data-aos="fade-up">
-              At aicompany, our vision is to be the most advanced AI-driven
-              ecosystem that bridges the real and digital worlds. We are
-              committed to empowering businesses, innovators, and cosmic
+              At IntueraAi Solutions, our vision is to be the most advanced
+              AI-driven ecosystem that bridges the real and digital worlds. We
+              are committed to empowering businesses, innovators, and cosmic
               explorers with quantum-level AI solutions that redefine how we
               live, work, and connect—on Earth and beyond. As we look toward the
               future, we aim to expand our services across various domains,
@@ -99,9 +99,9 @@ const HowWeWork = () => {
               Let's Create Something Exceptional
             </h2>
             <p className="desc" data-aos="fade-up">
-              At aicompany, we believe that exceptional achievements are born
-              from visionary collaborations. By merging your unique aspirations
-              with our quantum-level AI expertise, we can co-create
+              At IntueraAi Solutions, we believe that exceptional achievements
+              are born from visionary collaborations. By merging your unique
+              aspirations with our quantum-level AI expertise, we can co-create
               groundbreaking solutions that captivate audiences across galaxies.
               Let's embark on this cosmic journey together and transform your
               ideas into reality.

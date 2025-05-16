@@ -43,7 +43,7 @@ export const serviceDetails = [
     imageone: Full_Stack_sub1,
     imgagetwo: Full_Stack_sub2,
     title: "App Development",
-    heading: "At aicompany, Building Mobile Experiences That Matter",
+    heading: "At IntueraAi Solutions, Building Mobile Experiences That Matter",
     description:
       "We build custom iOS and Android apps that are smooth, scalable, and ready for real-world use. From MVPs to enterprise-grade systems, our mobile solutions are designed to perform — and keep your users coming back. Our development team focuses on creating applications that not only meet your business objectives but also provide exceptional user experiences. Whether you're launching a startup or enhancing an existing product, we deliver mobile solutions that stand out in today's competitive marketplace.",
     secondHeading:
@@ -68,12 +68,12 @@ export const serviceDetails = [
     ],
     thirdHeading: "Redefine the Future with AI Innovation",
     thirdDescription:
-      "At aicompany, we are revolutionizing mobile app development by integrating cutting-edge artificial intelligence capabilities. Our AI-powered apps deliver personalized experiences that adapt to user behavior, anticipate needs, and improve over time. From intelligent chatbots and voice assistants to advanced analytics and predictive features, we create mobile solutions that are not just functional but truly smart. By leveraging machine learning algorithms, we enable your app to process data more efficiently, make better decisions, and offer unparalleled value to your users. Partner with us to build future-ready applications that set new standards in the digital landscape.",
+      "At IntueraAi Solutions, we are revolutionizing mobile app development by integrating cutting-edge artificial intelligence capabilities. Our AI-powered apps deliver personalized experiences that adapt to user behavior, anticipate needs, and improve over time. From intelligent chatbots and voice assistants to advanced analytics and predictive features, we create mobile solutions that are not just functional but truly smart. By leveraging machine learning algorithms, we enable your app to process data more efficiently, make better decisions, and offer unparalleled value to your users. Partner with us to build future-ready applications that set new standards in the digital landscape.",
     whyMatter:
       "Why It Matters Globally: In today's hyper-connected world, mobile apps are essential touchpoints for customers across all demographics and regions. Our forward-thinking approach ensures your app resonates with diverse audiences while driving meaningful engagement and business growth.",
     fourthHeading: "Accelerating Innovation Through App Development",
     fourthDescripiton:
-      "At aicompany, we accelerate innovation through our comprehensive mobile development services by integrating advanced technologies such as artificial intelligence and machine learning. We transform ideas into market-ready applications with rapid development cycles, agile methodologies, and continuous iteration based on real user feedback. Our scalable architecture ensures your app can grow alongside your business, while our emphasis on performance optimization delivers lightning-fast experiences even under heavy load conditions. From seamless API integrations to robust backend systems, we build the complete ecosystem your mobile app needs to succeed in today's fast-paced digital marketplace.",
+      "At IntueraAi Solutions, we accelerate innovation through our comprehensive mobile development services by integrating advanced technologies such as artificial intelligence and machine learning. We transform ideas into market-ready applications with rapid development cycles, agile methodologies, and continuous iteration based on real user feedback. Our scalable architecture ensures your app can grow alongside your business, while our emphasis on performance optimization delivers lightning-fast experiences even under heavy load conditions. From seamless API integrations to robust backend systems, we build the complete ecosystem your mobile app needs to succeed in today's fast-paced digital marketplace.",
   },
   {
     id: 2,
@@ -82,7 +82,8 @@ export const serviceDetails = [
     imageone: appdevimg1,
     imgagetwo: appdevimg2,
     title: "Web Development",
-    heading: "At aicompany, Creating Websites That Work — And Convert",
+    heading:
+      "At IntueraAi Solutions, Creating Websites That Work — And Convert",
     description:
       "Your website isn't just a digital brochure — it's your engine for growth. We create fast, responsive, and SEO-optimized websites that make every click count. Our web development team combines technical expertise with strategic thinking to build online solutions that drive real business results. From corporate websites to complex web applications, we deliver digital experiences that engage visitors and convert them into loyal customers.",
     secondHeading:
@@ -107,12 +108,12 @@ export const serviceDetails = [
     ],
     thirdHeading: "Redefine the Future with AI Innovation",
     thirdDescription:
-      "Web development is undergoing a transformation through AI integration, enabling more intelligent, adaptive, and personalized digital experiences. At aicompany, we harness the power of artificial intelligence to create websites that learn from user interactions, optimize content delivery, and automate complex processes. From AI-powered chatbots and recommendation engines to intelligent content management systems and predictive analytics, our web solutions leverage cutting-edge technology to deliver exceptional results. By embracing these innovations, we help businesses stay ahead of digital trends and provide their users with smarter, more intuitive online experiences.",
+      "Web development is undergoing a transformation through AI integration, enabling more intelligent, adaptive, and personalized digital experiences. At IntueraAi Solutions, we harness the power of artificial intelligence to create websites that learn from user interactions, optimize content delivery, and automate complex processes. From AI-powered chatbots and recommendation engines to intelligent content management systems and predictive analytics, our web solutions leverage cutting-edge technology to deliver exceptional results. By embracing these innovations, we help businesses stay ahead of digital trends and provide their users with smarter, more intuitive online experiences.",
     whyMatter:
       "Why It Matters for Digital Growth: Your web presence is often the first impression potential customers have of your business. Our development approach ensures that impression is not just positive but compelling enough to drive meaningful engagement and conversions across your digital ecosystem.",
     fourthHeading: "Accelerating Innovation Through Web Development",
     fourthDescripiton:
-      "Web development serves as a critical catalyst for business innovation by enabling companies to rapidly deploy, test, and refine digital solutions. At aicompany, we leverage modern development frameworks, microservices architecture, and continuous integration practices to accelerate the delivery of web projects. Our approach emphasizes flexibility and adaptability, allowing businesses to respond quickly to market changes and user feedback. By building scalable, component-based systems, we create web solutions that can evolve incrementally without requiring complete overhauls. This methodology not only speeds time-to-market but also fosters a culture of continuous improvement and digital transformation within organizations.",
+      "Web development serves as a critical catalyst for business innovation by enabling companies to rapidly deploy, test, and refine digital solutions. At IntueraAi Solutions, we leverage modern development frameworks, microservices architecture, and continuous integration practices to accelerate the delivery of web projects. Our approach emphasizes flexibility and adaptability, allowing businesses to respond quickly to market changes and user feedback. By building scalable, component-based systems, we create web solutions that can evolve incrementally without requiring complete overhauls. This methodology not only speeds time-to-market but also fosters a culture of continuous improvement and digital transformation within organizations.",
   },
   {
     id: 3,
@@ -121,7 +122,7 @@ export const serviceDetails = [
     imageone: UX_UI_Sub1,
     imgagetwo: UX_UI_Sub2,
     title: "UI/UX Design",
-    heading: "At aicompany, Design That Connects People to Product",
+    heading: "At IntueraAi Solutions, Design That Connects People to Product",
     description:
       "Design is more than visuals — it's about experience. Our UI/UX process blends strategy and creativity to build intuitive, user-centered interfaces that turn visitors into loyal users. Great products don't just look good — they feel right. From wireframes to final polish, we turn interfaces into experiences that resonate with your target audience and support your business objectives. Our human-centered design approach ensures that every element serves a purpose in the user journey.",
     secondHeading: "How our company will Help you in the Era of UI/UX Design",
@@ -145,11 +146,11 @@ export const serviceDetails = [
     ],
     thirdHeading: "Redefine the Future with AI Innovation",
     thirdDescription:
-      "AI is revolutionizing UI/UX design by enabling more personalized, adaptive, and intelligent user experiences. At aicompany, we integrate artificial intelligence into our design process to analyze user behavior patterns, predict user preferences, and create interfaces that respond dynamically to individual needs. Our AI-enhanced design approach helps identify usability issues before they impact users, generates design variations based on performance metrics, and enables real-time personalization of content and layouts. By embracing these technological advancements, we create digital experiences that not only meet current user expectations but anticipate future needs, setting new standards in human-computer interaction.",
+      "AI is revolutionizing UI/UX design by enabling more personalized, adaptive, and intelligent user experiences. At IntueraAi Solutions, we integrate artificial intelligence into our design process to analyze user behavior patterns, predict user preferences, and create interfaces that respond dynamically to individual needs. Our AI-enhanced design approach helps identify usability issues before they impact users, generates design variations based on performance metrics, and enables real-time personalization of content and layouts. By embracing these technological advancements, we create digital experiences that not only meet current user expectations but anticipate future needs, setting new standards in human-computer interaction.",
     whyMatter:
       "Why It Matters for User Engagement: In today's competitive digital landscape, the quality of user experience often determines success or failure. Our design philosophy centers on creating emotional connections between users and digital products, fostering loyalty, reducing friction, and ultimately driving sustainable business growth through superior user satisfaction.",
     fourthHeading: "Accelerating Innovation Through UI/UX Design",
     fourthDescripiton:
-      "UI/UX design serves as a powerful driver of innovation by bridging user needs with technological possibilities. At aicompany, our design process focuses on rapid ideation, prototyping, and validation, allowing businesses to explore new concepts and refine them based on real user feedback. By creating interactive prototypes early in the development cycle, we enable stakeholders to experience and evaluate potential solutions before significant resources are invested in development. This approach not only accelerates the innovation process but also reduces risk by ensuring that the final product addresses genuine user needs and preferences. Through strategic design thinking, we help organizations transform challenges into opportunities and deliver breakthrough digital experiences.",
+      "UI/UX design serves as a powerful driver of innovation by bridging user needs with technological possibilities. At IntueraAi Solutions, our design process focuses on rapid ideation, prototyping, and validation, allowing businesses to explore new concepts and refine them based on real user feedback. By creating interactive prototypes early in the development cycle, we enable stakeholders to experience and evaluate potential solutions before significant resources are invested in development. This approach not only accelerates the innovation process but also reduces risk by ensuring that the final product addresses genuine user needs and preferences. Through strategic design thinking, we help organizations transform challenges into opportunities and deliver breakthrough digital experiences.",
   },
 ];

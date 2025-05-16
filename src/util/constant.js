@@ -52,7 +52,7 @@ import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
-  name: "aicompany",
+  name: "IntueraAi Solutions",
   email: "aicompany@gmail.com",
   phone: "+91-0000000000",
   address: "company address",

@@ -35,9 +35,9 @@ const Faq = () => {
               Frequently Asked Questions
             </h1>
             <p className="desc" data-aos="fade-right">
-              Welcome to the aicompany FAQ section, where we explore how this
-              platform is shaping the future of human evolution through AI,
-              immersive storytelling, and cosmic intelligence.
+              Welcome to the IntueraAi Solutions FAQ section, where we explore
+              how this platform is shaping the future of human evolution through
+              AI, immersive storytelling, and cosmic intelligence.
             </p>
             <button
               onClick={() => navigateTo("/contact-us")}
