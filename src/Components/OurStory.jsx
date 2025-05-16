@@ -8,23 +8,27 @@ const OurStory = () => {
             data-aos="fade-right"
             className="text-[32px] dark:text-white font-bold"
           >
-            Step into the Godverse
+            Transforming Ideas into Digital Realities
           </h3>
           <p className="desc mt-4" data-aos="fade-right">
-            At aicompany, we aren’t just another tech firm—we are architects of
-            the future, cosmic visionaries, and AI strategists committed to
-            expanding human potential across all frontiers. Join us to discover
-            how leading-edge technology—powered by quantum insights—can
-            transform your business, your world, and the universe itself.
+            At IntueraAi Solutions, we are dedicated to turning your visionary
+            ideas into impactful digital solutions. Our team of experts combines
+            app development, web development, and UI/UX design to empower
+            businesses across industries. We leverage the latest technologies
+            and strategic planning to drive growth, user engagement, and lasting
+            success.
             <br />
             <br />
-            Experience cosmic innovation with aicompany. From AI-powered
-            solutions to AR/VR, mobile apps, and quantum-level data analytics,
-            we help businesses worldwide transcend boundaries. Join us to expand
-            your vision across all continents—and beyond.
+            Partner with us to create scalable, user-friendly digital
+            experiences that propel your business forward in today's fast-paced
+            world.
           </p>
         </div>
-        <img data-aos="fade-left" src={visionmissionimg} alt="" />
+        <img
+          data-aos="fade-left"
+          src={visionmissionimg}
+          alt="IntueraAi Vision and Mission"
+        />
       </div>
     </section>
   );

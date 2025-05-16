@@ -12,13 +12,13 @@ const UnlockEfficiency = () => {
       <div className="wrapper w-full flex flex-col gap-10 items-center paddingtop paddingbottom">
         <RoundedHeader title="Unlock Efficiency" />
         <h1 className="main-title w-fit">
-          Drive Innovation with Our AI Services
+          Empower Your Business with Our Digital Solutions
         </h1>
         <p className="desc text-center">
-          Drive innovation with our AI-powered solutions, transforming business
-          operations through automation, data intelligence, and machine
-          learning. Enhance efficiency, streamline workflows, and deliver
-          smarter customer experiences with next-gen AI technology.
+          At IntueraAi Solutions, we deliver innovative app development,
+          responsive web design, and user-centric UI/UX services. Our solutions
+          help streamline operations, enhance customer engagement, and
+          accelerate growth through tailored technology.
         </p>
         <button
           onClick={() => navigateTo("/contact-us")}

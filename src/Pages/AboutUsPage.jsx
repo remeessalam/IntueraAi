@@ -37,13 +37,12 @@ const AboutUsPage = () => {
                   About Us
                 </h1>
                 <p data-aos="fade-right" className="desc mt-10">
-                  Welcome to aicompany, where cosmic innovation converges with
-                  quantum-level intelligence. In a reality where technology
-                  evolves at light speed, we stand at the intersection of cosmic
-                  insight and cutting-edge innovation. By merging quantum-level
-                  thinking with AI-driven solutions, we transform visionary
-                  ideas into immersive digital experiences that transcend
-                  borders, dimensions, and industries.
+                  At IntueraAi Solutions, we specialize in crafting innovative
+                  digital solutions that empower businesses to succeed. Our
+                  expert team delivers custom app development, responsive web
+                  development, and user-centric UI/UX design. We combine
+                  strategic planning with cutting-edge technology to bring your
+                  vision to life and drive measurable growth across industries.
                 </p>
               </div>
               <img data-aos="fade-left" src={aboutusimg} alt="aboutus-img" />

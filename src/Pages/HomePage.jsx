@@ -19,41 +19,45 @@ const HomePage = () => {
       <HomePageBanner />
       <section>
         <div className="wrapper grid md:grid-cols-2 gap-10 sm:pt-[4rem] pt-[2rem] paddingbottom">
-          <img data-aos="fade-right" src={homeaboutimg} alt="homeaboutimg" />
+          <img
+            data-aos="fade-right"
+            src={homeaboutimg}
+            alt="IntueraAi Solutions"
+          />
           <div>
             <h1 className="main-title leading-tight" data-aos="fade-left">
-              Welcome to aicompany
+              Welcome to IntueraAi Solutions
             </h1>
             <p className="desc mt-4" data-aos="fade-left">
-              In a reality where technology evolves at light speed, aicompany
-              stands at the intersection of cosmic insight and cutting-edge
-              innovation. By merging quantum-level thinking with AI-driven
-              solutions, we transform visionary ideas into immersive digital
-              experiences that transcend borders, dimensions, and industries.
-              Whether you need a next-generation mobile app, an interstellar
-              AR/VR environment, or an AI calling system that revolutionizes
-              global communication, aicompany is here to guide you on this
-              journey across galaxies.
+              At IntueraAi Solutions, we specialize in crafting innovative
+              digital solutions that drive business success. Our expertise spans
+              app development, responsive web development, and user-centric
+              UI/UX design. Whether you're launching a startup MVP or scaling an
+              enterprise-grade product, we combine strategic planning,
+              cutting-edge technology, and creative design to bring your ideas
+              to life and accelerate growth.
             </p>
           </div>
         </div>
       </section>
+
       <WhyChooseUs />
       <Ourvalues />
       <section className="dark:bg-darkblack ">
         <div className="flex wrapper flex-col gap-4 items-center w-full paddingtop paddingbottom">
           <RoundedHeader title={"Our Services"} />
           <h1 className="main-title text-center" data-aos="fade-up">
-            Your Gateway to Cosmic AI Intelligence
+            Innovative Digital Solutions Tailored for Your Success
           </h1>
           <p className="desc max-w-[40rem] text-center" data-aos="fade-up">
-            Step beyond the ordinary and embrace the next evolution of
-            intelligence. aicompany is more than a solution—it is a living
-            intelligence network that fuses AI, quantum knowledge, and cosmic
-            consciousness.
+            At IntueraAi Solutions, we specialize in app development, web
+            development, and UI/UX design, delivering custom digital products
+            that drive business growth and user engagement. Partner with us to
+            transform your ideas into scalable, user-friendly experiences.
           </p>
         </div>
       </section>
+
       <ServicesGrid />
       <Industries />
       <Portfolio />

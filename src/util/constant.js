@@ -138,6 +138,13 @@ export const testimonials = [
     rating: 5,
     gridClass: "col-span-1",
   },
+  {
+    quote:
+      "IntueraAi Solutions transformed our outdated web platform into a modern, high-performing application. Their attention to detail and expertise in AI integration was a game changer for our business.",
+    author: "Neha S., CEO, Innovex Labs",
+    rating: 5,
+    gridClass: "col-span-1",
+  },
 ];
 
 export const highlights = [
