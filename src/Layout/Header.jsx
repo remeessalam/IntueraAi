@@ -26,7 +26,7 @@ const Header = () => {
       <div className="wrapper">
         <div className="flex items-center justify-between py-3 md:py-3">
           <div className="flex-shrink-0">
-            <div className=" w-auto text-black   rounded-xl">
+            <div className=" w-auto text-white   rounded-xl">
               <img src={logo} alt="logo" className="w-[5rem] md:w-[5.8rem]" />
             </div>
           </div>

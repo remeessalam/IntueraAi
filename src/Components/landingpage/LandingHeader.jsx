@@ -18,7 +18,7 @@ const LandingHeader = () => {
   //   navigate("/contact-us");
   // };
   return (
-    <nav className="fixed w-full top-0 !z-50 bg-primary dark:bg-darkblack shadow-md">
+    <nav className="fixed w-full top-0 !z-50 bg-white dark:bg-darkblack shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
@@ -30,7 +30,7 @@ const LandingHeader = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              className="text-black dark:text-white/70 hover:text-primary dark:hover:text-white"
             >
               Home
             </Link>
@@ -41,8 +41,8 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              activeClass="active-link text-blue-300 dark:text-primary"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              activeClass="active-link text-black font-bold dark:text-primary hover:!text-black dark:hover:text-white"
+              className="text-primay/80 dark:text-white/70 hover:text-black dark:hover:text-white"
             >
               About Us
             </Scrolllink>
@@ -53,15 +53,15 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              activeClass="active-link text-blue-300 dark:text-primary"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              activeClass="active-link text-black font-bold dark:text-primary hover:!text-black dark:hover:text-white"
+              className="text-primay/80 dark:text-white/70 hover:text-black dark:hover:text-white"
             >
               Services
             </Scrolllink>
 
             <Link
               to="/blog"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              className="text-black dark:text-white/70 hover:text-primary dark:hover:text-white"
             >
               Blog
             </Link>
