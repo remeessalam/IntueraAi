@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import {
-  appPortfolio,
-  blockchainPortfolio,
-  webPortfolio,
-} from "../util/constant";
+import { useState } from "react";
+import { appPortfolio, webPortfolio } from "../util/constant";
 
 const Portfolio = () => {
   const [activePortfolio, setActivePortfolio] = useState("web");
@@ -11,7 +7,7 @@ const Portfolio = () => {
   const portfolioTypes = [
     { key: "web", label: "Web Projects" },
     { key: "app", label: "Mobile Apps" },
-    { key: "blockchain", label: "Blockchain" },
+    // { key: "blockchain", label: "Blockchain" },
   ];
 
   const getCurrentPortfolio = () => {
@@ -20,8 +16,8 @@ const Portfolio = () => {
         return webPortfolio;
       case "app":
         return appPortfolio;
-      case "blockchain":
-        return blockchainPortfolio;
+      // case "blockchain":
+      //   return blockchainPortfolio;
       default:
         return webPortfolio;
     }

@@ -31,10 +31,10 @@ import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mar
 import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.webp";
 import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.webp";
 import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.webp";
-//portfolio
-import nanoflow from "../assets/portfolio/nanoflow.png";
-import padipal from "../assets/portfolio/padipal.png";
-import cryptopadie from "../assets/portfolio/cryptopadie.png";
+// //portfolio
+// import nanoflow from "../assets/portfolio/nanoflow.png";
+// import padipal from "../assets/portfolio/padipal.png";
+// import cryptopadie from "../assets/portfolio/cryptopadie.png";
 
 import { CgWebsite } from "react-icons/cg";
 import { GoFileMedia } from "react-icons/go";
@@ -454,23 +454,23 @@ export const appPortfolio = [
   },
 ];
 
-export const blockchainPortfolio = [
-  {
-    id: 1,
-    img: nanoflow,
-    title: "Nanoflow",
-    link: "https://play.google.com/store/apps/details?id=com.nanfolo.user.app",
-  },
-  {
-    id: 2,
-    img: padipal,
-    title: "Padipal",
-    link: "https://padiepal.com",
-  },
-  {
-    id: 3,
-    img: cryptopadie,
-    title: "Cryptopadie",
-    link: "https://cryptopadie.com/",
-  },
-];
+// export const blockchainPortfolio = [
+//   {
+//     id: 1,
+//     img: nanoflow,
+//     title: "Nanoflow",
+//     link: "https://play.google.com/store/apps/details?id=com.nanfolo.user.app",
+//   },
+//   {
+//     id: 2,
+//     img: padipal,
+//     title: "Padipal",
+//     link: "https://padiepal.com",
+//   },
+//   {
+//     id: 3,
+//     img: cryptopadie,
+//     title: "Cryptopadie",
+//     link: "https://cryptopadie.com/",
+//   },
+// ];
