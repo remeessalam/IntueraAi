@@ -113,7 +113,7 @@ const HomePageBanner = () => {
       >
         {/* Animated Heading */}
         <motion.h1
-          className="sm:text-5xl text-3xl font-bold text-center text-white mb-6 tracking-tight"
+          className="sm:text-6xl text-3xl font-bold font-mono text-center text-white mb-6 tracking-tight"
           variants={itemVariants}
         >
           {headingText.split("").map((char, i) => (
@@ -134,7 +134,7 @@ const HomePageBanner = () => {
         >
           {/* Animated Paragraph */}
           <motion.p
-            className="font-bold text-lg sm:text-xl text-white text-center leading-relaxed"
+            className="font-medium font-mono text-lg sm:text-2xl text-white text-center leading-relaxed"
             variants={itemVariants}
             initial={{ opacity: 0, y: 30 }}
             animate={{
