@@ -11,6 +11,7 @@ import { useTheme } from "../Context/ThemeContext";
 import Industries from "../Components/Industries";
 import Ourvalues from "../Components/Ourvalues";
 import Portfolio from "../Components/Portfolio";
+import LeadForm from "../Components/landingpage/LeadForm";
 const HomePage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
@@ -40,7 +41,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
+      <div className="wrapper bg-transparent dark:bg-gradient-to-b from-primary/50 to-black/50  backdrop-blur-md rounded-xl w-fit mx-auto">
+        <LeadForm />
+      </div>
       <WhyChooseUs />
       <Ourvalues />
       <section className="dark:bg-darkblack ">
@@ -70,6 +73,9 @@ const HomePage = () => {
         <div className="relative z-10 w-full h-full">
           <Testimonials />
           <Highlights />
+          <div className="wrapper bg-transparent dark:bg-gradient-to-b from-primary/50 to-black/50 backdrop-blur-md rounded-xl w-fit mx-auto">
+            <LeadForm />
+          </div>
           <Faq />
         </div>
       </div>
